@@ -1,6 +1,6 @@
 public class TextWise {
     static String reverse(String input){
-        if (input == null || input.length() <= 1) return input;
+        if (input.length() <= 1) return input;
         return reverse(input.substring(1)) + input.charAt(0);
     }
 
